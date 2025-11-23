@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "raju";
+    src: url(./Blush\ Free.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.images{
+    display: flex;
+}
+
+.images img{
+    height: 200px;
+    width: 250px;
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+}
+
+.text h1{
+    font-size: 35px;
+}
+
+.text h2{
+    font-size: 35px;
+}
+
+.box button{
+    padding: 5px 10px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 170px;
+    font-weight: 900;
+    background-color: green;
+    color:white;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+button:active{
+    transform: scale(0.95);
+}
+.box #heading{
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 100px;
+}
